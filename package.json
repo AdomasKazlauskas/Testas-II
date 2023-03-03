@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "start": "nodemon ./index.js localhost 8008"
+  }
+}
