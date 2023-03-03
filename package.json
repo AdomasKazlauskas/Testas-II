@@ -3,6 +3,21 @@
     "nodemon": "^2.0.21"
   },
   "scripts": {
-    "start": "nodemon ./index.js localhost 8008"
-  }
+    "start": "nodemon ./Testas.js localhost 8008"
+  },
+  "name": "testas-ii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdomasKazlauskas/Testas-II.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdomasKazlauskas/Testas-II/issues"
+  },
+  "homepage": "https://github.com/AdomasKazlauskas/Testas-II#readme",
+  "description": ""
 }
