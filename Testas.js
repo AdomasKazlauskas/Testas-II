@@ -109,6 +109,23 @@ console.log("-----8-----");
 // skaičius yra tas, kuris dalinasi tik iš savęs ir tik iš vieneto be liekanos.) (10 taškų)
 console.log("-----9-----");
 
+function pirminisSkaicius(number) {
+  if (typeof number !== "number") {
+    return "Klaida: Gražinta reikšmė nėra skaičius";
+  }
+  if (number <= 1) {
+    return false;
+  }
+  for (let i = 2; i < number; i++) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+console.log(pirminisSkaicius("h"));
+
 // 10. Parašyti funkciją telefonoNumeris. Funkcija turi priimti vieną kintamąjį - masyvą. Masyvo elementai - skaičiai, ilgis - 10.
 // Funkcija turi grąžinti telefono numerį tokiu formatu - "(XXX) XXX-XXXX". (10 taškų)
 console.log("-----10-----");
